@@ -8,7 +8,6 @@
     --gold-light: #d9a757;   /* gold gradient highlight */
     --gold-wash: #fbf3e4;    /* pale gold background wash */
     --paper: #eef0f4;        /* page background */
-    --paper-line: rgba(15, 35, 64, 0.045); /* faint ruled-ledger lines on the page */
     --card: #ffffff;
     --ink-soft: #56637a;     /* secondary text */
     --line: #e2e6ee;
@@ -28,11 +27,6 @@
 body {
     font-family: var(--font-body);
     background-color: var(--paper);
-    background-image: repeating-linear-gradient(
-        to bottom,
-        transparent 0px, transparent 27px,
-        var(--paper-line) 27px, var(--paper-line) 28px
-    );
     color: var(--ink);
     position: relative;
     overflow-x: hidden;
