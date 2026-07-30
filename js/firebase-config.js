@@ -22,12 +22,12 @@
 // ============================================================
 
 const firebaseConfig = {
-    apiKey: "PASTE_YOUR_API_KEY_HERE",
-    authDomain: "PASTE_YOUR_PROJECT.firebaseapp.com",
-    projectId: "PASTE_YOUR_PROJECT_ID",
-    storageBucket: "PASTE_YOUR_PROJECT.appspot.com",
-    messagingSenderId: "PASTE_YOUR_SENDER_ID",
-    appId: "PASTE_YOUR_APP_ID"
+    apiKey: "AIzaSyB4zlNcah5pYFxh41k9L76FjA7VVZjmiZ8",
+    authDomain: "login-187a7.firebaseapp.com",
+    projectId: "login-187a7",
+    storageBucket: "login-187a7.firebasestorage.app",
+    messagingSenderId: "120981965875",
+    appId: "1:120981965875:web:1adb9c7efa23061006a746"
 };
 
 firebase.initializeApp(firebaseConfig);
