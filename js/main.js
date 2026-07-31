@@ -568,7 +568,7 @@ function razorpayReady() {
     return typeof Razorpay !== 'undefined'
         && typeof RAZORPAY_KEY_ID !== 'undefined'
         && RAZORPAY_KEY_ID
-        && RAZORPAY_KEY_ID !== "PASTE_YOUR_KEY_ID_HERE";
+        && RAZORPAY_KEY_ID !== "rzp_test_TKAOsjJZ5WkRwY";
 }
 
 function startRazorpayPayment() {
